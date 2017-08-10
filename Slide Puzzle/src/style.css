@@ -1,0 +1,78 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: auto;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+#phaser-div {
+    height: 100%;
+    width: 100%;
+}
+
+canvas {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    /*width:100% !important;*/
+    /*height:100% !important;*/
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    src: url(app-chef-game-container/Assets/Fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSansSemi';
+    font-style: normal;
+    src: url(app-chef-game-container/Assets/Fonts/OpenSans-Semibold.ttf);
+}
+
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    src: url(app-chef-game-container/Assets/Fonts/Oswald-Bold.ttf);
+}
+
+#font-loader {
+    position: absolute;
+    left: -100px;
+}
+
+#bugfixer {
+    font-family: "OpenSans";
+    visibility: hidden;
+}
+
+#font-hack {
+    font-family: "Oswald";
+    visibility: hidden;
+}
+
+#font-hack-two {
+    font-family: "OpenSansSemi";
+    visibility: hidden;
+}

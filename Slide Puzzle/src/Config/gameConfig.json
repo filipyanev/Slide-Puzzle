@@ -1,0 +1,110 @@
+{
+  "game_name": "CS",
+  "theme": "vipgames",
+  "canRunLocally": "true",
+  "site_titles": {
+    "bgmenu": "BGMenu",
+    "oliviera": "Oliviera"
+  },
+  "gameType": "normal",
+  "defaultLanguage": "bg",
+  "quests": [
+    {
+      "id": 544,
+      "quest": {
+        "id": 23,
+        "credits": null,
+        "reward": {
+          "type": "voucher",
+          "image": "http://rest.bgmenustaging.appchef.me/media/images/rewards/1/avatar_copy_52x.png",
+          "game_image": "http://rest.bgmenustaging.appchef.me/media/images/game_rewards/1/FreeDel_71x71.png",
+          "i18n": [
+            {
+              "language": "en",
+              "title": "Delivery",
+              "description": "Free Delivery"
+            },
+            {
+              "language": "bg",
+              "title": "Доставка",
+              "description": "Безплатна доставка"
+            }
+          ]
+        },
+        "i18n": [
+          {
+            "language": "en",
+            "title": "Win 100 credits"
+          },
+          {
+            "language": "bg",
+            "title": "Спечели 100 кредита"
+          }
+        ],
+        "image": "http://rest.bgmenustaging.appchef.me/media/assets/quests/23/get.png"
+      },
+      "conditions": [
+        {
+          "current_value": 1,
+          "value": 100
+        }
+      ],
+      "progress": 1,
+      "claimed": false
+    },
+    {
+      "id": 545,
+      "quest": {
+        "id": 21,
+        "credits": 50,
+        "reward": null,
+        "i18n": [
+          {
+            "language": "en",
+            "title": "Achieve a total score of 3000 in Freecell Solitaire and Play for at least 5 minutes"
+          },
+          {
+            "language": "bg",
+            "title": "Постигни общ резултат от 3000 на пасианс Празна Клетка"
+          }
+        ],
+        "image": "http://rest.bgmenustaging.appchef.me/media/assets/quests/21/10games.png"
+      },
+      "conditions": [
+        {
+          "current_value": 5000,
+          "value": 5000
+        }
+      ],
+      "progress": 100,
+      "claimed": false
+    },
+    {
+      "id": 546,
+      "quest": {
+        "id": 22,
+        "credits": 150,
+        "reward": null,
+        "i18n": [
+          {
+            "language": "en",
+            "title": "Play 5 minutes"
+          },
+          {
+            "language": "bg",
+            "title": "Играй 5 минути"
+          }
+        ],
+        "image": "http://rest.bgmenustaging.appchef.me/media/assets/quests/22/time.png"
+      },
+      "conditions": [
+        {
+          "current_value": 33,
+          "value": 300
+        }
+      ],
+      "progress": 44,
+      "claimed": false
+    }
+  ]
+}
